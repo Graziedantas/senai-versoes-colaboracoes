@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T00:00:21.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="x3__bqZWBs57GkeoSL8b" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T00:06:47.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9KGkVKnmUe87LNiJFFRE" version="20.5.3" type="github">
   <diagram id="2-5Cp_Lj5YXHeEUB76e6" name="Página-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,10 @@
         <mxCell id="NpaPo7YRu0MvinR8lYgY-5" value="Entrada&lt;br&gt;(Compra da peça)" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=27;arcSize=11;" vertex="1" parent="1">
           <mxGeometry x="220" y="300" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NpaPo7YRu0MvinR8lYgY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NpaPo7YRu0MvinR8lYgY-6" target="NpaPo7YRu0MvinR8lYgY-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NpaPo7YRu0MvinR8lYgY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NpaPo7YRu0MvinR8lYgY-6" target="NpaPo7YRu0MvinR8lYgY-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NpaPo7YRu0MvinR8lYgY-6" value="Saída&lt;br&gt;(Venda da peça)" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=27;arcSize=11;" vertex="1" parent="1">
           <mxGeometry x="490" y="290" width="120" height="80" as="geometry" />
@@ -34,11 +36,23 @@
         <mxCell id="NpaPo7YRu0MvinR8lYgY-17" value="Quantidade + estoque" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="215" y="420" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NpaPo7YRu0MvinR8lYgY-18" value="Quantidade &amp;lt;= saldo do estoque" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="420" width="200" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="NpaPo7YRu0MvinR8lYgY-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="305" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpaPo7YRu0MvinR8lYgY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NpaPo7YRu0MvinR8lYgY-23" target="NpaPo7YRu0MvinR8lYgY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpaPo7YRu0MvinR8lYgY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NpaPo7YRu0MvinR8lYgY-23" target="NpaPo7YRu0MvinR8lYgY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpaPo7YRu0MvinR8lYgY-23" value="Quantidade &amp;lt;= saldo do estoque" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="430" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NpaPo7YRu0MvinR8lYgY-25" value="Quantidade - Saldo do estoque da peça" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="585" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpaPo7YRu0MvinR8lYgY-26" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
